@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
       backgroundmain.style.transition = "all 0.5s";
     });
     hover.addEventListener("mouseout", function (event) {
-      backgroundmain.style.background = "linear-gradient(#222222, #121212)";
+      backgroundmain.style.background =
+        "linear-gradient(#6e6e6e -100%,#121212 40%)";
     });
   });
 });
